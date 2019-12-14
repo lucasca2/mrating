@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea0f746-7745-4d56-981c-da1bc6f77e10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Main/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Rating/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Rating/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Movies/components/CardMovie/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Movies/components/CardMovie/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Movies/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Movies/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Movies/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Movies/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Movies/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/movie.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576345416806</updated>
-      <workItem from="1576345418028" duration="10228000" />
+      <workItem from="1576345418028" duration="10539000" />
     </task>
     <servers />
   </component>
