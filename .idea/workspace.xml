@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea0f746-7745-4d56-981c-da1bc6f77e10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/services/movie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loading/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loading/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Paginator/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Paginator/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/globalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/globalStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Movies/components/CardMovie/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Movies/components/CardMovie/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Movies/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Movies/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Movies/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Movies/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Movies/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/movies/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/movies/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/movies/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/movies/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/movies/sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/movies/sagas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +38,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -54,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576345416806</updated>
-      <workItem from="1576345418028" duration="10539000" />
+      <workItem from="1576345418028" duration="15412000" />
     </task>
     <servers />
   </component>

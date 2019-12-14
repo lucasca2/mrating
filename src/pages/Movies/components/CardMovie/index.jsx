@@ -20,9 +20,10 @@ export default function CardMovie({
   voteAverage,
   voteCount,
   image,
+  ...props
 }) {
   return (
-    <Wrapper>
+    <Wrapper {...props}>
       <WrapperImage>
         <Image src={image} />
       </WrapperImage>

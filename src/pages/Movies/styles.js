@@ -43,6 +43,9 @@ export const Content = styled.div`
   max-height: 100%;
   overflow: auto;
   
+  align-content: space-between;
+  align-items: center;
+  
   @media (min-width: 551px) and (max-width: 851px) {
     left: 250px;
   }
@@ -51,3 +54,4 @@ export const Content = styled.div`
     left: 0;
   }
 `;
+

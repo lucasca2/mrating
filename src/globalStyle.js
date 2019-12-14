@@ -15,11 +15,8 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   
-  input, button {
+  input, button, a {
     outline: none;
-  }
-  
-  button {
     cursor: pointer;
   }
   

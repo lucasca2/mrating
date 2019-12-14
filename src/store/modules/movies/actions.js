@@ -1,8 +1,9 @@
 import { Types } from './reducer';
 
-export function requestMovies() {
+export function requestMovies({ page }) {
   return {
     type: Types.REQUEST_MOVIES,
+    payload: { page }
   }
 }
 

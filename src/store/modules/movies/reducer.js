@@ -7,7 +7,8 @@ export const Types = {
 };
 
 const INITIAL_STATE = {
-  movies: null,
+  data: null,
+  meta: null,
   loading: false,
 };
 
@@ -19,7 +20,11 @@ export default function movies (state = INITIAL_STATE , action) {
         break;
       }
       case Types.REQUEST_SUCCESS: {
-        draft.movies = action.payload.movies;
+        const { results, ...meta } = action.payload.movies;
+
+        draft.data = results;
+        draft.meta = meta;
+        // draft.data = action.payload.movies;
         draft.loading = false;
         break;
       }
