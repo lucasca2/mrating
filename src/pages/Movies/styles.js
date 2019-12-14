@@ -4,27 +4,50 @@ import styles from 'styles';
 // Static
 import logo from 'static/logo.svg';
 
-export const Wrapper = styled.div`
-  display: flex;
-  height: 100%;
-`;
-
 export const Aside = styled.div`
-  background-color: ${styles.colors.default.primary};
+  z-index: 1;
+  position: fixed;
   width: 300px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: ${styles.colors.default.primary};
   padding: ${styles.metrics.baseSpacing.large};
-  min-height: 100vh;
+  
+  transition: transform .3s;
+  will-change: transform;
+  
+    
+  @media (min-width: 551px) and (max-width: 851px) {
+    width: 250px;
+  }
+  
+  @media (max-width: 550px) {
+    transform: translateX(-100%);
+  }
 `;
 
 export const Logo = styled.img.attrs({
   src: logo
-})`
-
-`;
+})``;
 
 export const Content = styled.div`
-  background-color: black;
-  flex-grow: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 300px;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
   padding: 10px;
-  min-height: 100vh;
+  max-height: 100%;
+  overflow: auto;
+  
+  @media (min-width: 551px) and (max-width: 851px) {
+    left: 250px;
+  }
+  
+  @media (max-width: 550px) {
+    left: 0;
+  }
 `;
