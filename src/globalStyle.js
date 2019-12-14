@@ -1,9 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
+import 'typeface-poppins';
 import styles from 'styles';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
-  
   @font-face {
     font-family: "Poppins", sans-serif;
     font-size: ${styles.fonts.sizes.medium};
@@ -30,7 +29,7 @@ export default createGlobalStyle`
   
   body {
     background-color: ${styles.colors.background};
-    color: ${styles.colors.default.black};
+    color: ${styles.colors.default.text};
   }
   
   body, input, button {

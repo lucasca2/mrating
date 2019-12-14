@@ -1,9 +1,22 @@
 import React from 'react';
 
+// Styles
+import {
+  Wrapper,
+  Logo,
+  Aside,
+  Content,
+} from './styles';
+
 export default function Movies() {
   return (
-    <div>
-      Movies Page
-    </div>
+    <Wrapper>
+      <Aside>
+        <Logo />
+      </Aside>
+      <Content>
+
+      </Content>
+    </Wrapper>
   )
 }

@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea0f746-7745-4d56-981c-da1bc6f77e10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/globalStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Movies/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/createStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/modules/movies/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/modules/movies/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/modules/movies/sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/modules/rootReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/modules/rootSaga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/colors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/metrics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Movies/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/globalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/globalStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Movies/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Movies/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/colors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576345416806</updated>
-      <workItem from="1576345418028" duration="3288000" />
+      <workItem from="1576345418028" duration="4744000" />
     </task>
     <servers />
   </component>

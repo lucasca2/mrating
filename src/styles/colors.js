@@ -36,7 +36,7 @@ export default {
 
     border: defaultColors.white,
 
-    background: defaultColors.white,
+    background: defaultColors.black,
 
     input: defaultColors.white,
 };
