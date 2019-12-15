@@ -30,7 +30,7 @@ export default function Rating({
   return (
     <Wrapper>
       {rating !== 0 ?
-        stars.map((StarIcon, index) => <StarIcon />)
+        stars.map((StarIcon, index) => <StarIcon key={`rating-star-${index}`}/>)
         : (
           <span>NOVO!</span>
         )

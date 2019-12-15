@@ -29,7 +29,9 @@ export const Aside = styled.div`
 
 export const Logo = styled.img.attrs({
   src: logo
-})``;
+})`
+  margin-bottom: ${styles.metrics.baseSpacing.ultraLarge};
+`;
 
 export const Content = styled.div`
   position: fixed;

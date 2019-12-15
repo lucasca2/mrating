@@ -12,9 +12,15 @@ import {
 import movieService from 'services/movie';
 
 export function* requestMovies({ payload }) {
-  const { page } = payload;
+  const { page, search } = payload;
   try {
-    const movies = yield call(movieService.get, { page });
+    let movies;
+    if(search) {
+      movies = yield call(movieService.searchMovie, search, { page });
+    } else {
+      movies = yield call(movieService.get, { page });
+    }
+
 
     yield put(requestSuccess({ movies }));
   } catch (err) {
