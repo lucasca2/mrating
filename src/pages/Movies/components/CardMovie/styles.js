@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from "react-router-dom";
 import styles from 'styles';
 
 export const WrapperImage = styled.div`
@@ -57,7 +58,7 @@ export const Info = styled.div`
   margin: ${styles.metrics.baseSpacing.ultraSmall} 0;
 `;
 
-export const Wrapper = styled.div`
+export const Wrapper = styled(Link)`
   display: flex;
   flex-direction: column;
   align-items: center;

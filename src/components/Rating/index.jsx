@@ -5,7 +5,8 @@ import { MdStar, MdStarBorder, MdStarHalf } from "react-icons/all";
 import { Wrapper } from './styles';
 
 export default function Rating({
-  rating
+  rating,
+  ...props
 }) {
   const stars = useMemo(() => {
     const s = [];
@@ -28,7 +29,7 @@ export default function Rating({
 
 
   return (
-    <Wrapper>
+    <Wrapper {...props}>
       {rating !== 0 ?
         stars.map((StarIcon, index) => <StarIcon key={`rating-star-${index}`}/>)
         : (

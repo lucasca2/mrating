@@ -11,6 +11,9 @@ import {
   Content,
   Title,
   Info,
+  Overview,
+  WrapperGenres,
+  Genres
 } from './styles';
 
 
@@ -20,6 +23,8 @@ export default function CardMovie({
   voteAverage,
   voteCount,
   image,
+  overview,
+  genres,
   ...props
 }) {
   return (
@@ -28,11 +33,17 @@ export default function CardMovie({
           <Image src={image} />
         </WrapperImage>
         <Content>
-          <Rating rating={voteAverage} />
-          <Title>{title}</Title>
-          <Info>Lançamento: {releaseDate}</Info>
+          <Rating style={{ justifyContent: 'flex-start' }} rating={voteAverage} />
           <Info>Avaliações: {voteCount}</Info>
+          <Info>Lançamento: {releaseDate}</Info>
+          <Title>{title}</Title>
+          <Overview>{overview}</Overview>
         </Content>
+        <WrapperGenres>
+          {genres?.map((genre, index) => (
+            <Genres>{genre.name}</Genres>
+          ))}
+        </WrapperGenres>
     </Wrapper>
   )
 }

@@ -32,7 +32,10 @@ export default function Movies() {
   const totalPages = useSelector(state => state?.movies?.meta?.total_pages);
   const loading = useSelector(state => state?.movies?.loading);
 
-  const debounceSearch = _.debounce(setSearchValue, 500);
+  const debounceSearch = _.debounce((value) => {
+    setSearchValue(value);
+    setCurrentPage(1);
+  }, 500);
 
   useEffect(() => {
     dispatch(requestMovies({ page: currentPage, search: searchValue }));
@@ -70,6 +73,7 @@ export default function Movies() {
           movies && movies.map((movie, index) => (
             <CardMovie
               key={`card-movie-${index}`}
+              to={`/filme/${movie.id}`}
               title={movie.title}
               releaseDate={movie.release_date}
               voteAverage={movie.vote_average}
