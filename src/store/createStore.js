@@ -5,7 +5,7 @@ const reduxDevTools =   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DE
 export default (reducers, middlewares) => {
   const enhancer = compose(
     applyMiddleware(...middlewares),
-    reduxDevTools
+    // reduxDevTools
   );
 
   return createStore(reducers, enhancer);
